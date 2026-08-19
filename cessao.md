@@ -101,9 +101,13 @@ NÃO — nenhum sinal, sinal que não atinge o credor-alvo, ou falso positivo ab
 ## RESSALVA À PREVALÊNCIA TEMPORAL
 Nesta seção, NÃO use "página mais alta prevalece": os trechos vêm de documentos diferentes e a
 numeração de página não é comparável entre eles. Cessão homologada não se desfaz por ato posterior
-silencioso — apenas por rescisão, anulação ou indeferimento expressos nos autos. Cessões parciais
-sucessivas da parte do mesmo credor SOMAM: se juntas esgotarem a parte de {{nome_autor}} — e os
-trechos afirmarem os valores, sem conta sua —, a classificação é INTEGRAL.
+silencioso — apenas por rescisão, anulação ou indeferimento expressos nos autos.
+
+Cessões parciais sucessivas da parte do mesmo credor SOMAM apenas se os trechos as identificarem
+como cessões DISTINTAS — instrumentos, datas ou cessionários diferentes. Menções repetidas da MESMA
+cessão (contrato, decisão homologatória, intimação, ofício) contam UMA vez. Na dúvida sobre serem a
+mesma cessão, trate como uma só e responda PARCIAL. Sendo distintas e esgotando juntas a parte de
+{{nome_autor}} — com os valores afirmados nos trechos, sem conta sua —, a classificação é INTEGRAL.
 
 ## FORMATO OBRIGATÓRIO DO CAMPO "resposta" NESTA SEÇÃO
 O campo "resposta" DEVE começar exatamente por um destes rótulos, conforme a QUESTION_KEY recebida:
