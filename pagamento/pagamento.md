@@ -110,13 +110,29 @@ c) SUPERPREFERÊNCIA DENTRO DO LIMITE (art. 100, § 2º, CF): mesmo instituto da
    remanescente e sem requisitório complementar. Havendo excedente ou saldo → PARCIAL.
 
 ### INTEGRAL — hipótese secundária
-d) RPV (Requisição de Pequeno Valor): crédito abaixo do teto de pequeno valor (60 salários
-   mínimos na esfera federal; limites próprios em Estados e Municípios) é pago integralmente, em
-   regra em até 60 dias, sem fila cronológica e sem fracionamento. Consequência prática: em RPV,
-   quando o pagamento ocorre, ele é integral — não há pagamento parcial por insuficiência de fila.
-   ATENÇÃO: ser RPV NÃO prova que houve pagamento. A natureza de RPV apenas afasta a hipótese de
-   fracionamento; a conclusão de pagamento integral continua exigindo ato concreto de quitação.
-   RPV apenas expedida, requisitada ou transmitida = NÃO.
+d) RPV (Requisição de Pequeno Valor) — APLIQUE SOMENTE SE O CRÉDITO ANALISADO FOR RPV.
+   Antes de usar esta hipótese, verifique a espécie do requisitório de {{nome_autor}} em
+   análise. Sendo PRECATÓRIO, IGNORE esta hipótese por inteiro: menção a RPV nos autos não diz
+   nada sobre o pagamento do precatório — e RPV aparece com frequência por outros motivos
+   (teto da RPV como parâmetro do limite de superpreferência, RPV de honorários sucumbenciais,
+   RPV de outra parte ou de outro crédito, discussão sobre fracionamento).
+   Mecânica: crédito abaixo do teto de pequeno valor (60 salários mínimos na esfera federal;
+   limites próprios em Estados e Municípios) é pago integralmente, em regra em até 60 dias da
+   requisição, sem fila cronológica e sem fracionamento. Consequência: em RPV, quando o
+   pagamento ocorre, ele é integral — não há pagamento parcial por insuficiência de fila, e
+   PAGAMENTO_PARCIAL por esta via é NÃO.
+   Gradação, quando o crédito analisado é RPV:
+   • RPV com pagamento comprovado (depósito, alvará cumprido, certidão de pagamento, extinção
+     pelo cumprimento) → SIM (CONFIRMADO).
+   • RPV expedida/requisitada, PRAZO DE 60 DIAS JÁ DECORRIDO e nenhuma notícia de pagamento
+     nos trechos → SIM (INDICIO). O prazo legal venceu; presume-se o pagamento, mas sem
+     comprovação nos autos. Diga na resposta que a conclusão vem do decurso do prazo, não de
+     comprovante.
+   • RPV expedida com o prazo de 60 dias ainda em curso → NÃO.
+   Como aferir o decurso do prazo: compare a data da expedição/requisição da RPV com a data
+   mais recente que CONSTAR nos trechos (última movimentação, decisão, certidão, juntada). Não
+   presuma a data de hoje e não invente data. Sem data de expedição, ou sem data posterior
+   comparável nos trechos, responda NÃO.
 
 ## CLASSIFICAÇÃO
 SIM (CONFIRMADO) — o dinheiro saiu, ou o juízo/tribunal registrou que saiu:
@@ -134,14 +150,16 @@ SIM (INDICIO) — sinal vinculado ao crédito de {{nome_autor}}, sem comprovaç�
   • menção a "saldo remanescente" ou "crédito complementar" sem dizer o que foi pago
   • intimação para dar quitação; acordo direto homologado sem comprovação de pagamento
   • rateio ou parcela do exercício noticiados sem valor e sem comprovação
+  • RPV expedida com o prazo de 60 dias já decorrido, sem notícia de pagamento — apenas quando
+    o crédito analisado for RPV (hipótese d)
 
 NÃO — nenhum sinal, sinal que não atinge o credor-alvo, ou falso positivo abaixo.
 
 ## FALSOS POSITIVOS — responda NÃO
 1. Estar na fila: inclusão no orçamento, ordem cronológica, dotação, disponibilidade financeira,
    "aguarda pagamento", previsão de pagamento.
-2. Expedição, transmissão ou cadastro do ofício requisitório: é pedido de pagamento. Vale também
-   para a RPV expedida e não paga.
+2. Expedição, transmissão ou cadastro do ofício requisitório: é pedido de pagamento. Vale para a
+   RPV expedida enquanto o prazo de 60 dias não decorrer; decorrido o prazo, ver hipótese d.
 3. Sentença ou acórdão que CONDENA a pagar: é o mérito da ação.
 4. Destaque, reserva ou retenção de honorários; honorários sucumbenciais pagos; custas, taxas,
    despesas processuais, honorários periciais, verbas acessórias.
@@ -250,3 +268,15 @@ transferido para o exercício seguinte." (pág. 366)
 → "PAGAMENTO PARCIAL: SIM (CONFIRMADO) — pagamento por rateio proporcional de 32% do valor
 requisitado, por insuficiência de dotação, com saldo transferido ao exercício seguinte.
 Páginas 366."
+
+EX. 11 — crédito analisado é RPV: "Expedida a Requisição de Pequeno Valor em favor do exequente
+em 10/03/2025." (pág. 118) e, adiante, "Certidão de decurso de prazo lavrada em 22/07/2025."
+(pág. 124), sem notícia de pagamento.
+→ "PAGAMENTO INTEGRAL: SIM (INDICIO) — RPV expedida em 10/03/2025 e prazo de 60 dias já
+decorrido em relação à data mais recente dos autos (22/07/2025), sem comprovante de pagamento
+nos trechos; a conclusão decorre do decurso do prazo, não de comprovação. Páginas 118, 124."
+
+EX. 12 — crédito analisado é PRECATÓRIO: "O crédito supera o teto da RPV, razão pela qual se
+expediu precatório, vedado o fracionamento (art. 100, § 8º, da CF)." (pág. 74)
+→ "PAGAMENTO INTEGRAL: NÃO — a RPV é citada apenas como parâmetro de valor; o crédito analisado
+é precatório e não há notícia de pagamento. Páginas 74."
